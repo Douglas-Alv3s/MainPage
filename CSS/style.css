@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    font-family: roboto;
+}
+
+.estilo-pagina {
+    width: 70%;
+    margin: 4% auto;
+}
+
+.caixa-opcao {
+    position: relative;
+}
+
+.titulo-principal {
+    font-size: 50px;
+    font-family: "Abril Fatface", cursive;
+    font-weight: bold; 
+    display: inline;
+    color: rgb(0, 0, 19);
+}
+
+nav {
+    float: right;
+    margin: 20px 0 0;
+    
+}
+
+nav li {
+    text-decoration: none;
+    display: inline;
+    margin: 0 0 0 20px;
+    color: rgb(71, 71, 151);
+}
+
+.div-inicial {
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte-pagina {
+    width: 66%;
+    /* border: 1px solid blue; */
+
+}
+
+.parte-pagina img {
+    width: 100%;
+    
+}
+
+.escrita-pagina{
+    margin: 1.5em 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-pagina {
+    width: 50%;
+    font-size: 3em;
+    font-weight: bolder;
+    color: rgb(0, 0, 19);
+}
+
+.texto-pagina{
+    width: 50%;
+    line-height: 1.5em;    
+    position: relative;
+    font-size: 13px
+}
+
+.botao-readme {
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    padding: 12px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #f15d51;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px
+}
+
+.div-lateral {
+    width: 27%;
+    background: #00001a;
+    padding: 2%;
+    
+}
+
+.div-lateral h1{
+    font-weight: bolder;
+    color: orange;
+    font-size: 40px;
+    padding: 0 0 5% 0;
+}
+
+.div-lateral h2{
+    font-size: 16px;
+    padding: 1em 0 2% 0;
+}
+
+.div-lateral h2 a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+.div-lateral p {
+    color: rgba(255, 255, 255, 0.54);
+    padding: 1em 0 7% 0;
+    /* letter-spacing: 4px; */
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.lateral-borda {
+    /* padding: 5% 0; */
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.parte-inferior {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 6.5em 0 0 0;
+
+}
+
+.parte-inferior img{
+    width: 120px;
+    height: 140px;
+}
+
+.parte-inferior h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(210, 210, 210);
+}
+
+.parte-inferior a {
+    text-decoration: none;
+    color: #00001a;
+    font-weight: bolder;
+    /* font-size: */
+}
+
+.parte-inferior p {
+    color: #171743;
+    font-size: 14px;
+}
+
+.first-inferior {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.A-inferior {
+    width: 50%;
+    /* border: 1px solid darkblue; */
+}
+
+.B-inferior {
+    width:50%;
+    /* border: 1px solid rgb(40, 244, 67); */
+}
+
+.last-inferior {
+    width: 31%;
+    /* padding: 2%; */
+    /* border: 1px solid rgb(241, 6, 225); */
+}
+
+.C-inferior {
+    /* width: 100%; */
+}
